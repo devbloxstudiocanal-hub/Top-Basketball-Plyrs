@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top Basketball Players</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>🏀 Top Basketball players</h1>
+    <nav>
+      <a href="#ranking">Ranking</a>
+      <a href="#sobre-mi">Sobre mí</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="intro">
+      <h2>Mi Top 3 de basketbolistas</h2>
+      <p>Estos son los jugadores que más me gustan, con mi puntaje de 0 a 100.</p>
+    </section>
+
+    <section id="ranking" class="ranking-grid">
+
+      <article class="card" style="--hue: 50">
+        <span class="medal">🥇</span>
+        <div class="card-img">
+          <img src="images/juego1.jpeg" alt="Imagen del juego 1" onerror="this.replaceWith('🏆')">
+        </div>
+        <h3>Derrick Rose</h3>
+        <p>El MVP más joven de la historia; su explosividad y resiliencia siempre me inspiran.</p>
+        <div class="stat">
+          <span>Nivel Jugador</span>
+          <div class="bar"><div class="fill" style="--score: 95%"></div></div>
+        </div>
+        <span class="score">100</span>
+      </article>
+
+      <article class="card" style="--hue: 190">
+        <span class="medal">🥈</span>
+        <div class="card-img">
+          <img src="images/juego2.jpeg" alt="Imagen del juego 2" onerror="this.replaceWith('🎯')">
+        </div>
+        <h3>Luka Dončić</h3>
+        <p>Campeón de Euroliga, múltiples veces All-Star y líder anotador; adoro su magia y visión ofensiva.</p>
+        <div class="stat">
+          <span>Nivel Jugador</span>
+          <div class="bar"><div class="fill" style="--score: 88%"></div></div>
+        </div>
+        <span class="score">95</span>
+      </article>
+
+      <article class="card" style="--hue: 320">
+        <span class="medal">🥉</span>
+        <div class="card-img">
+          <img src="images/juego3.jpeg" alt="Imagen del juego 3" onerror="this.replaceWith('⚡')">
+        </div>
+        <h3>Victor Wembanyama</h3>
+        <p>Novato del Año, Defensor del Año y líder en tapones; me fascina su dominio extraterrestre</p>
+        <div class="stat">
+          <span>Nivel Jugador</span>
+          <div class="bar"><div class="fill" style="--score: 80%"></div></div>
+        </div>
+        <span class="score">90</span>
+      </article>
+
+    </section>
+
+    <section id="sobre-mi">
+      <h2 id="gradient-aboutMe">Sobre mí</h2>
+      <p>Hecho por: Claude (and little Luis).</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Proyecto de clase · Creación de Páginas Web</p>
+  </footer>
+
+</body>
+</html>
